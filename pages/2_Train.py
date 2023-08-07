@@ -1,6 +1,5 @@
 import streamlit as st
 import streamlit as st
-import streamlit_scrollable_textbox as stx
 from model import build_model
 from preprocess import preprocess_context, get_next_word, tokenizer
 import numpy as np
